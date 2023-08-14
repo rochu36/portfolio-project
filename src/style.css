@@ -102,21 +102,36 @@ footer .social-links a:hover {
   color: white;
 }
 
+footer .code-source {
+  font-size: 14px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+footer .code-source a {
+  color: #272142;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+footer .code-source a:hover {
+  color: var(--branding-color);
+}
+
 .logo {
   max-height: 40px;
 }
 
 .hero {
   background: var(--secondary-color);
-  padding: 160px 20px;
+  padding: 100px 20px;
   text-align: center;
 }
 
 .hero p {
   color: #272142;
   font-size: 36px;
-  font-weight: bold;
-  margin: 0;
+  font-weight: normal;
 }
 
 .hero h2 {
@@ -127,7 +142,7 @@ footer .social-links a:hover {
 }
 
 .content-container {
-  padding: 100px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -196,7 +211,7 @@ footer .social-links a:hover {
   }
 
   .content-container {
-    padding: 20px;
+    padding: 0 20px;
   }
 
   .content {
